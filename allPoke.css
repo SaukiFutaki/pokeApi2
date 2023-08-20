@@ -1,0 +1,43 @@
+* .wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#items {
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+
+
+
+}
+
+.undefined {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.undefined img {
+  padding-left: 18%;
+  align-items: center;
+  object-fit: cover;
+  aspect-ratio: 5/5;
+  width: 200px;
+}
+
+p {
+  font-size: 15px;
+  color: white;
+
+}
